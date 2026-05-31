@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemton Msimango | Azure Cloud Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="network-canvas" class="network-bg"></canvas>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-cloud"></i>
+                <span>Kemton Msimango</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-right">
+                <a href="#" class="btn btn-outline download-cv">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
+                <button class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#home" class="mobile-link active">Home</a>
+        <a href="#certifications" class="mobile-link">Certifications</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="#" class="btn btn-outline mobile-link"><i class="fa-solid fa-download"></i> Download CV</a>
+    </div>
+
+    <section id="home" class="hero container">
+        <div class="hero-content reveal">
+            <div class="badge">
+                <span class="dot"></span> Azure Cloud Engineer
+            </div>
+            <h1 class="hero-name">
+                Kemton<br>Msimango
+            </h1>
+            <h2 class="hero-title">Azure Cloud Engineer</h2>
+            <p class="hero-desc">
+                I help businesses build, manage, and optimize secure, scalable, and cost-efficient cloud solutions on Microsoft Azure.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    View Projects <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Contact Me <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual reveal">
+            <img src="assets/images/kemtonv@.png" alt="Kemton Msimango" class="profile-image">
+        </div>
+    </section>
+
+    <section id="certifications" class="section container">
+        <div class="section-grid">
+            <div class="intro-card card reveal">
+                <div class="intro-icon"><i class="fa-solid fa-award"></i></div>
+                <h3 class="intro-title">Certifications</h3>
+                <p class="intro-desc">Industry-recognized credentials that validate my expertise.</p>
+                <a href="#" class="text-link">View all certifications <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="items-grid">
+                <div class="cert-card card reveal">
+                    <img src="assets/images/certifications/azure-administrator.png" alt="Azure Administrator" class="cert-badge">
+                    <div class="cert-info">
+                        <h4>Microsoft Certified<br>Azure Administrator Associate</h4>
+                        <a href="#" class="btn-small">View Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card card reveal">
+                    <img src="assets/images/certifications/azure-fundamentals.png" alt="Azure Fundamentals" class="cert-badge">
+                    <div class="cert-info">
+                        <h4>Microsoft Certified<br>Azure Fundamentals</h4>
+                        <a href="#" class="btn-small">View Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card card reveal">
+                    <img src="assets/images/certifications/comptia-security-plus.png" alt="CompTIA Security+" class="cert-badge">
+                    <div class="cert-info">
+                        <h4>CompTIA<br>Security+ (SY0-701)</h4>
+                        <a href="#" class="btn-small">View Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section container">
+        <div class="section-grid">
+            <div class="intro-card card reveal">
+                <div class="intro-icon"><i class="fa-solid fa-code"></i></div>
+                <h3 class="intro-title">Featured Projects</h3>
+                <p class="intro-desc">Real-world cloud solutions built with Azure.</p>
+                <a href="#" class="text-link">View all projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="items-grid">
+                <div class="project-card card reveal">
+                    <div class="project-thumb">
+                        <img src="assets/images/projects/project-1.png" alt="Project 1">
+                        <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Azure 3-Tier Web App Architecture</h4>
+                        <p>Deployed a secure and scalable 3-tier web application using Azure App Service, Azure SQL Database, and Azure VNet.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="live-demo">Live Demo <i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card card reveal">
+                    <div class="project-thumb">
+                        <img src="assets/images/projects/project-2.png" alt="Project 2">
+                        <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Infrastructure as Code with Bicep</h4>
+                        <p>Automated Azure infrastructure deployment using Bicep modules, version control, and GitHub Actions CI/CD.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="live-demo">Live Demo <i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card card reveal">
+                    <div class="project-thumb">
+                        <img src="assets/images/projects/project-3.png" alt="Project 3">
+                        <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Azure Cost Optimization Dashboard</h4>
+                        <p>Built a cost management dashboard using Azure Monitor, Log Analytics, and Power BI to track and optimize spend.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="live-demo">Live Demo <i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section container">
+        <div class="section-grid">
+            <div class="intro-card card reveal">
+                <div class="intro-icon"><i class="fa-regular fa-user"></i></div>
+                <h3 class="intro-title">About Me</h3>
+                <p class="intro-desc text-small">
+                    I’m an Azure Cloud Engineer passionate about designing and delivering reliable, secure, and cost-effective cloud solutions. I enjoy solving complex problems and turning ideas into impactful cloud experiences.
+                </p>
+                <a href="#" class="btn btn-outline mt-auto desktop-btn">More About Me <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card card reveal">
+                    <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <h4>Cloud Architecture</h4>
+                    <p>Design scalable, secure architectures aligned with business goals.</p>
+                </div>
+                <div class="skill-card card reveal">
+                    <div class="skill-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h4>DevOps & Automation</h4>
+                    <p>Automate deployments and optimize delivery pipelines with CI/CD.</p>
+                </div>
+                <div class="skill-card card reveal">
+                    <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h4>Security First</h4>
+                    <p>Implement best practices for identity, access, and data protection.</p>
+                </div>
+                <div class="skill-card card reveal">
+                    <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4>Cost Optimization</h4>
+                    <p>Drive cloud efficiency with monitoring, rightsizing, and smart governance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section container">
+        <div class="section-grid align-center">
+            <div class="intro-card card reveal title-only-card">
+                <h3 class="intro-title"><i class="fa-solid fa-quote-left mr-2"></i> What People Say</h3>
+            </div>
+            <div class="items-grid">
+                <div class="testimonial-card card reveal">
+                    <p class="quote">"Kemton is a detail-oriented engineer who consistently delivers high-quality cloud solutions."</p>
+                    <div class="author">
+                        <div class="avatar"></div>
+                        <div class="author-info">
+                            <h5>Thabo Ndlovu</h5>
+                            <span>Cloud Solutions Architect</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card card reveal">
+                    <p class="quote">"Working with Kemton was a great experience. His Azure expertise and problem-solving skills are excellent."</p>
+                    <div class="author">
+                        <div class="avatar"></div>
+                        <div class="author-info">
+                            <h5>Lerato Mokoena</h5>
+                            <span>DevOps Lead</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card card reveal">
+                    <p class="quote">"Kemton brings clarity and efficiency to every project. Highly recommended!"</p>
+                    <div class="author">
+                        <div class="avatar"></div>
+                        <div class="author-info">
+                            <h5>Jason Pillay</h5>
+                            <span>Engineering Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#about" class="btn btn-primary full-width-mobile-btn">About Me</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
